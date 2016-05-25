@@ -16,9 +16,31 @@ hr {
 h1 {
 	color: #ffffff; 
 	font-family: 'Abril Fatface';
-	font-size: 8em;
+	font-size: 14em; line-height: .875;
+	margin: -.125em;
+}
+
+//nav {
+	padding: 1em;
+	}
+
+div {
+  margin: 1em, 1em; padding: 1em; border: solid black; width: 800px;
+}
+
+footer {
+	  font-weight: heavy; margin: 1em, 1em; padding: 1em; border: solid black; color: 000.5;
 }
 
 .slogan {
-	font-style: italic;
+	font-size: 2em;
 }
+logo01 {
+		width: 300; height: 60; border: 3; margin: 20;
+	}
+logo02 {
+		width: 300; height: 60; border: 3; margin: 20;
+	}
+logo03 {
+		width: 300; height: 60; border: 3; margin: 20;
+	}
