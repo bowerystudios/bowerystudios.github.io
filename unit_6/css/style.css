@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+
+body {
+	text-align: center;
+	background-image: url("../images/5b144f3b39897e69e411bcbb516f01f3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Helvetica;  
+	font-size: 18px;
+}
+
+hr {
+	width: 200px;
+}
+
+h1 {
+	color: #ffffff; 
+	font-family: 'Abril Fatface';
+	font-size: 14em; line-height: .875;
+	margin: -.125em;
+}
+
+nav {
+	padding: 1em;
+	font-family: 'Abril Fatface';
+}
+
+div {
+  margin: 1em, 1em; padding: 1em; border: solid black; width: 800px;
+}
+
+footer {
+	  font-weight: heavy; margin: 1em, 1em; padding: 1em; border: solid black;
+}
+
+#two_column {
+	padding: 20px;
+}
+
+#left {
+	padding: 20px;
+	float: left;
+	width: 30%;
+	margin-bottom: 20px;
+}
+
+#right {
+	padding: 20px;
+	float: right;
+	width: 30%;
+	margin-bottom: 20px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.slogan {
+	font-size: 2em;
+}
+logo01 {
+		width: 300; height: 60; border: 3; margin: 20;
+	}
+logo02 {
+		width: 300; height: 60; border: 3; margin: 20;
+	}
+logo03 {
+		width: 300; height: 60; border: 3; margin: 20;
+	}
