@@ -42,7 +42,7 @@ div {
 #content {
 	width: 20%;
 	font-family: Georgia; 
-	color: #ffffff;
+	color: red;
 	font-size: 1.25em;
 }
 
@@ -55,6 +55,7 @@ div {
 #intro {
 	font: Courier;
 	margin: -2em;
+	color: white;
 }
 
 #two_column {
