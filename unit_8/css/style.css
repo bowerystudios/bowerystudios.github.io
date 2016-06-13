@@ -3,11 +3,11 @@
 body {
 	text-align: left;
 	background-image: url("../images/arkady_smoking_right.gif");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: black;
 	font-family: Helvetica;  
-	font-size: 16px;
+	font-size: 14px;
 }
 
 hr {
@@ -19,24 +19,42 @@ h1 {
 	color: #ffffff; 
 	font-family: 'Abril Fatface';
 	font-size: 5em; line-height: 1em;
-	margin: -.125em;
+	margin: -.125em 0 2em;
+	max-width: 60%;
+}
+
+h2 {
+	font-size: 1.25em;
 }
 
 nav {
+	height: 3em;
 	padding: .5em;
 	font-family: 'Arial Black'; 
 	color: #ffffff;
+	background-color: #49595E; opacity: .75; 
 }
 
 div {
-  margin: 1em, 1em; padding: 2em; width: 50%; float: none;
+  margin: 1em, 1em; padding: 2em; width: 100%; float: left;
 }
 
 #content {
-	width: 25%;
+	width: 20%;
 	font-family: Georgia; 
 	color: #ffffff;
 	font-size: 1.25em;
+}
+
+.date {
+	font-family: Courier;
+	font-size: 3em;
+	color: red;
+}
+
+#intro {
+	font: Courier;
+	margin: -2em;
 }
 
 #two_column {
@@ -44,21 +62,21 @@ div {
 }
 
 #left {
-	padding: .05em;
+	padding: .75em 1em;
 	float: left;
-	width: 25%;
+	width: 50%;
 	margin-bottom: .05em;
-	font-size: 1.5 em;
-	font-family: Georgia;
+	font-size: 1.5em; font-family: 'Palatino Linotype'; letter-spacing: .125em;
+	color: #ffffff;
 }
 #right {
-	padding: .05em;
+	padding: 0em 1em;
 	float: right;
-	width: 25%;
+	width: 15%;
 	margin-bottom: .05em;
 	text-align: right;
 	font-family: 'Arial Black';
-	font-size: 1.5em;
+	font-size: 2em;
 	color: red;
 }
 
@@ -88,15 +106,27 @@ footer {
 	  font-size: .5em; color: #ffffff; font-weight: heavy; margin: 1em, 1em; padding: 1em; 
 }
 
+@media only screen and (max-width: 1020px) {
+	body {
+		background-size: 100%;
+	}
+}
+
 @media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 3em;
+	}
 	#content {
-		float: none;
+		float: left;
 		width: auto;
 	}
 }
 
 @media only screen and (max-width: 480px) {
 	h1 {
-		font-size: 3em;
+		font-size: 2em;
+	}
+	h2 {
+		display: none;
 	}
 }
