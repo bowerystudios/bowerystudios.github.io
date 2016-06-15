@@ -48,7 +48,7 @@ div {
 
 .date {
 	font-family: Courier;
-	font-size: 3em;
+	font-size: 2em;
 	color: white;
 }
 
@@ -115,19 +115,44 @@ footer {
 
 @media only screen and (max-width: 768px) {
 	h1 {
-		font-size: 3em;
+		font-size: 4em;
+	}
+	div {
+		margin: .5em;
+	}
+	.date {
+		font-size: 100%;
 	}
 	#content {
 		float: left;
 		width: auto;
 	}
+	#left {
+		font-size: 90%; margin-top: .375em;
+	}
 }
 
 @media only screen and (max-width: 480px) {
 	h1 {
-		font-size: 2em;
+		font-size: 3em; margin-bottom: -1em;
 	}
-	h2 {
+
+	.date {
+		font-size: 100%;
+	}
+	#content {
+		margin-bottom: -6em;
+	}
+	#intro {
 		display: none;
+	}
+	#left {
+		font-size: 85%; width: 20%; margin-top: -.75em;
+	}
+	#right {
+		margin-top: -.025em;
+	}
+	.slogan {
+		margin-top: 6em;
 	}
 }
